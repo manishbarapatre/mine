@@ -35,6 +35,16 @@
     </dependency>
   </dependencies>
   <repositories>
+<repository>
+					<id>central</id>
+					<name>Central Repository</name>
+					<url>http://inidrmfassrv01:8085/nexus/content/groups/public/</url>
+				</repository>
+				<repository>
+					<id>JBossrepository</id>
+					<name>JBoss repository</name>
+					<url>http://inidrmfassrv01:8085/nexus/content/repositories/JBossrepository/</url>
+				</repository>
     <repository>
       <id>guvnor-m2-repo</id>
       <name>Guvnor M2 Repo</name>
