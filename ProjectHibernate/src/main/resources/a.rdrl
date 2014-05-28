@@ -1,0 +1,10 @@
+import java.lang.Number;
+import com.yash.entities.Movie;
+import com.yash.dao.MovieDao;
+
+rule "a"
+	dialect "java"
+	when
+		Movie( releaseYear == 2012 )
+	then
+end
